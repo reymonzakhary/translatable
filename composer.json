@@ -1,0 +1,33 @@
+{
+    "name": "rey/translatable",
+    "description": "Translation package for laravel 5",
+    "license": "TLC",
+    "authors": [
+        {
+            "name": "Reymon Zakhary",
+            "email": "reymon@charisma-design.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Upon\\Translatable\\": "src"
+
+        }
+    },
+    "require": {
+        "php" : ">=7.2.0",
+        "illuminate/database": ">=5.0",
+        "illuminate/support" : ">=5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/stubs/ProductStub.php"
+        ]
+    }
+
+}
