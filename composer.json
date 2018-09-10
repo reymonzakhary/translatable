@@ -18,12 +18,12 @@
     },
     "require": {
         "php" : "^7.0",
-        "illuminate/database": "~5.0.0",
-        "illuminate/support" : "~5.0.0"
+        "illuminate/database": "^5.0.0",
+        "illuminate/support" : "^5.0.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.0",
-        "phpunit/phpunit": "~5.0"
+        "orchestra/testbench": "^3.0",
+        "phpunit/phpunit": "^5.0"
     },
     "autoload-dev": {
         "classmap": [
