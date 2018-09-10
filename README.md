@@ -7,7 +7,7 @@ To install through composer, simply put the following in your composer.json file
 ```
 {
     "require": {
-        "orchestra/testbench": "~1.0.0"
+        "upon/translatable": "~1.0.0"
     }
 }
 
