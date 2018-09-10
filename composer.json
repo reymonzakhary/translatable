@@ -1,11 +1,13 @@
 {
     "name": "upon/translatable",
     "description": "Translation package for laravel 5",
-    "license": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Reymon Zakhary",
-            "email": "reymon@charisma-design.eu"
+            "email": "reymon@charisma-design.eu",
+            "homepage": "http://www.charisma-design.eu",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -15,9 +17,9 @@
         }
     },
     "require": {
-        "php" : ">=7.0.*",
-        "illuminate/database": ">=5.0",
-        "illuminate/support" : ">=5.0"
+        "php" : "~7.0.0",
+        "illuminate/database": "~5.0.0",
+        "illuminate/support" : "~5.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "~3.0",
